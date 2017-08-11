@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="View SubCategory"
+    android:id="@+id/viewsubcategory">
+    </item>
+    <item
+        android:title="Open"
+        android:id="@+id/opencategorydata"
+        android:icon="@drawable/opencategory">
+    </item>
+</menu>

@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/settingsbackground"
+    tools:context="com.example.hp.budgetplanner.SettingsMenuFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="110dp"
+       android:layout_marginTop="30dp"
+       android:layout_marginLeft="5dp"
+       android:layout_marginRight="5dp"
+       android:background="@drawable/settingsmenuback">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:background="#a4d581"
+        android:paddingLeft="20dp"
+        android:text="Account Details"
+        android:focusableInTouchMode="true"
+        android:textSize="30dp"
+        android:textAllCaps="false"
+        android:textColor="#639069"
+        android:id="@+id/viewdetails"
+        android:drawableLeft="@drawable/viewcategory"/>
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"
+
+        android:layout_marginRight="5dp"
+        android:background="@drawable/settingsmenuback">
+        <Button
+            android:layout_width="match_parent"
+            android:paddingLeft="20dp"
+            android:text="Reset Password"
+            android:textSize="30dp"
+            android:id="@+id/resetpassword"
+            android:textColor="#639069"
+            android:textAllCaps="false"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:background="#a4d581"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:drawableLeft="@drawable/resetpasswordicon"/>
+    </LinearLayout>
+
+</LinearLayout>

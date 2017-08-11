@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/appbackexpense">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/exp"/>
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="5dp"
+        android:text="expensename"
+        android:id="@+id/expensename"
+        android:textSize="22dp"
+        android:background="@drawable/exp2"/>
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="7dp"
+        android:id="@+id/expensepopup"
+        android:src="@drawable/popupmenuicon2"/>
+
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_height="40dp"
+        android:text="Subcategoryname"
+        android:paddingLeft="35dp"
+        android:id="@+id/expensesubcategory"
+        android:paddingTop="5dp"
+        android:textSize="22dp"
+        android:textStyle="italic"
+        android:textColor="#d4c6d5"
+        android:layout_marginTop="5dp"
+        android:background="#835283"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:id="@+id/expensedate"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="italic"
+            android:textColor="#73657a"
+            android:textSize="20dp"
+            android:text="18,January,1987"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:text="Rs"
+
+            android:layout_marginTop="5dp"
+
+            android:textStyle="italic"
+            android:textColor="#73657a"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:text="100000"
+            android:id="@+id/expenseamount"
+            android:layout_marginTop="5dp"
+
+            android:textStyle="italic"
+            android:textColor="#73657a"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

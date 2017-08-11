@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c2d3da">
+    <TextView
+        android:text="  Are You sure you want to delete"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:textStyle="italic|bold"
+        android:id="@+id/deltext"
+        android:paddingTop="25dp"
+        android:paddingLeft="26dp"
+        android:textSize="20dp"/>
+
+</LinearLayout>

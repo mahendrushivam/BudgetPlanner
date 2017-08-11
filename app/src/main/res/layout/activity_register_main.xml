@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context="com.example.hp.budgetplanner.RegisterMainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#323434"></View>
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:layout_marginTop="50dp"
+    android:src="@drawable/registericon2"
+    android:id="@+id/img2"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/register"
+            android:id="@+id/img3"
+            android:layout_below="@+id/img2"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/img3"
+            android:background="@drawable/roundrectangle2">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/username"
+                android:id="@+id/firstname"
+                android:hint=" Firstname"
+                android:textSize="22dp"
+                android:inputType="textPersonName"
+                android:background="@drawable/edittextdrawable"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/username"
+                android:id="@+id/lastname"
+                android:hint=" Lastname"
+                android:textSize="22dp"
+                android:inputType="text"
+                android:background="@drawable/edittextdrawable"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edittextdrawable"
+                android:id="@+id/profession"
+                android:hint=" Profession"
+                android:textSize="22dp"
+                android:drawableLeft="@drawable/profession"
+                android:inputType="text"
+                ></EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/emailid"
+                android:id="@+id/emailid"
+                android:hint=" Email-Id"
+                android:textSize="22dp"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/edittextdrawable"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/username"
+                android:id="@+id/username"
+                android:hint=" Username"
+                android:textSize="22dp"
+                android:inputType="text"
+                android:background="@drawable/edittextdrawable"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/password"
+                android:id="@+id/password"
+                android:hint=" Password"
+                android:textSize="22dp"
+                android:inputType="textPassword"
+                android:background="@drawable/edittextdrawable"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/password"
+                android:id="@+id/confirmpassword"
+                android:hint=" Confirm Password"
+                android:textSize="22dp"
+                android:inputType="textPassword"
+                android:background="@drawable/edittextdrawable"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:textAllCaps="false"
+                android:text="SIGN UP"
+                android:textColor="#FFF"
+                android:textStyle="bold|italic"
+                android:textSize="28dp"
+                android:focusable="true"
+                android:contextClickable="true"
+                android:clickable="true"
+                android:id="@+id/signup"
+                android:onClick="submit"
+                android:background="@drawable/roundrectangle" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

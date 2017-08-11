@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background1"
+    tools:context="com.example.hp.budgetplanner.LoginMainActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/registoricon"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/registericon"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/loginimg"
+        android:layout_below="@+id/registericon"
+        android:layout_marginTop="-60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="20dp"
+
+        android:id="@+id/img2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/img2"
+        android:background="#323434"
+        android:id="@+id/linear"
+        android:orientation="vertical"
+
+        android:layout_marginTop="-15dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/username"
+            android:background="@drawable/edittextdrawable"
+            android:hint="  Username"
+            android:id="@+id/username"
+            android:textSize="24dp"
+            android:inputType="text"
+            android:textColor="#000000"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/password"
+            android:background="@drawable/edittextdrawable"
+            android:hint=" Password"
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:textSize="24dp"
+            android:textColor="#000000"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textStyle="bold|italic"
+            android:drawableRight="@drawable/lock"
+            android:text="Sign In"
+            android:onClick="signinbut"
+            android:textAllCaps="false"
+
+            android:textSize="30dp"
+            android:background="@drawable/roundrectangle"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/signin"
+            android:focusable="true"
+            android:contextClickable="true"
+            android:contentDescription="Sign In"
+            android:clickable="true"
+            android:layout_marginTop="10dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+
+        android:background="@drawable/roundrectangle2"
+        android:layout_below="@+id/linear"
+        android:orientation="vertical"
+
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold|italic"
+            android:text="Sign Up"
+
+            android:textAllCaps="false"
+
+            android:textSize="30dp"
+            android:background="@drawable/roundrectangle"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/signup"
+            android:focusable="true"
+            android:onClick="signupbut"
+            android:contextClickable="true"
+            android:contentDescription="Sign Up"
+            android:clickable="true"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

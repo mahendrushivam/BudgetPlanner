@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Delete Budget"
+        android:icon="@drawable/opencategory"
+        android:id="@+id/deletebudget"
+
+        />
+    <item
+        android:title="Open Budget"
+        android:id="@+id/openbudget"
+        android:icon="@drawable/opencategory"
+        />
+    <item
+        android:title="Edit Budget"
+        android:id="@+id/editbudget"
+        android:icon="@drawable/opencategory"
+        />
+</menu>

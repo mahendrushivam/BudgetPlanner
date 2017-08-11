@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/abutsitebackgrnd"
+    tools:context=".AboutTheAppFragment">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_marginTop="30dp"
+    android:id="@+id/budgeticon"
+    android:src="@mipmap/budgetplannericon"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:orientation="vertical"
+        android:background="@drawable/abouttheappbackground"
+        >
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="230dp"
+            android:background="#e7c1ca"
+            android:layout_marginTop="30dp"
+            android:textSize="22dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="15dp"
+            android:textStyle="italic"
+            android:paddingRight="20dp"
+            android:text="Budget Planner app provides facility to it users to maintain their monthly day to day expenses.All user data is locally stored in the phone providing no room for leaking of your vital information to the developer"/>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/abouttheappbackground"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:background="#dda6b5"
+        android:textSize="24dp"
+        android:paddingTop="15dp"
+        android:paddingLeft="8dp"
+        android:layout_marginLeft="10dp"
+        android:text="Developer : Shivam Mahendru"/>
+
+</LinearLayout>
+
+</LinearLayout>

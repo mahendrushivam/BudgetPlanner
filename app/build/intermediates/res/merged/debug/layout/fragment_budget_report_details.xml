@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d6a0b7"
+    tools:context="com.example.hp.budgetplanner.BudgetReportDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="vertical"
+        android:background="@drawable/budgetreportdetailsback1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="70dp">
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="70dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="10dp"
+    android:src="@drawable/budgetlisting2"/>
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="60dp"
+                android:id="@+id/budgetname"
+                android:textSize="28dp"
+                android:background="@drawable/budgetreportdetailsback2"
+                android:layout_marginTop="10dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:textStyle="bold|italic"
+                android:layout_marginLeft="5dp"
+                android:text="budgetname"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:textSize="24dp"
+            android:textStyle="italic"
+            android:textColor="#ddbdcb"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="Budget Amount :: Rs"/>
+
+<TextView
+    android:layout_width="150dp"
+    android:layout_height="60dp"
+    android:textColor="#ddbdcb"
+    android:textSize="24dp"
+    android:text="50000"
+    android:id="@+id/budgetamount"
+    android:textStyle="italic"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="-10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:textSize="24dp"
+                android:textStyle="italic"
+                android:textColor="#ddbdcb"
+                android:paddingLeft="110dp"
+                android:text="Month ::"/>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:textStyle="italic"
+                android:textColor="#ddbdcb"
+                android:id="@+id/budgetmonth"
+                android:textSize="24dp"/>
+        </LinearLayout>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/budgetreportdetailsback2">
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/budgetreportdetails"></ListView>
+        </LinearLayout>
+
+</LinearLayout>

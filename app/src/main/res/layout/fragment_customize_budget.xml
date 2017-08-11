@@ -1,0 +1,289 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hp.budgetplanner.CustomizeBudget">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/customizeappback1"
+
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingTop="10dp"
+            android:background="@drawable/customizeback2"
+            android:text="       Customize Your Budget"
+            android:textSize="28dp"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="420dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:background="@drawable/customizeback2">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:src="@drawable/food2"
+            />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="24dp"
+            android:text="Food"
+            android:layout_marginTop="15dp"
+            android:textStyle="italic|bold"
+            />
+        <EditText
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:hint="  0"
+            android:paddingLeft="10dp"
+        android:textSize="22dp"
+            android:id="@+id/food"
+        android:background="@drawable/edittextdrawable"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:orientation="horizontal"
+            android:background="@drawable/customizeappback1">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:src="@drawable/medic2"
+                />
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="24dp"
+                android:text="HealthCare"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic|bold"
+                />
+            <EditText
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:hint="  0"
+                android:id="@+id/healthcare"
+                android:textSize="22dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/edittextdrawable"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:orientation="horizontal"
+        android:background="@drawable/customizeback2">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:src="@drawable/education2"
+            />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="24dp"
+            android:text="Education"
+            android:layout_marginTop="15dp"
+            android:textStyle="italic|bold"
+            />
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:hint="  0"
+            android:textSize="22dp"
+            android:id="@+id/education"
+            android:paddingLeft="10dp"
+            android:background="@drawable/edittextdrawable"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:orientation="horizontal"
+        android:background="@drawable/customizeappback1">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:src="@drawable/transportation2"
+            />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="22dp"
+            android:text="Transportation"
+            android:layout_marginTop="15dp"
+            android:textStyle="italic|bold"
+            />
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:hint="  0"
+            android:textSize="22dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/transportation"
+            android:background="@drawable/edittextdrawable"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:orientation="horizontal"
+        android:background="@drawable/customizeback2">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:src="@drawable/beautysalon2"
+            />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="24dp"
+            android:text="Clothing"
+            android:layout_marginTop="15dp"
+            android:textStyle="italic|bold"
+            />
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:hint="  0"
+            android:textSize="22dp"
+            android:id="@+id/clothbeauty"
+            android:paddingLeft="10dp"
+            android:background="@drawable/edittextdrawable"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:orientation="horizontal"
+        android:background="@drawable/customizeappback1">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:src="@drawable/social2"
+            />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="24dp"
+            android:text="Social"
+            android:layout_marginTop="15dp"
+            android:textStyle="italic|bold"
+            />
+
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:hint="  0"
+            android:textSize="22dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/social"
+            android:background="@drawable/edittextdrawable"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:orientation="horizontal"
+        android:background="@drawable/customizeback2">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:src="@drawable/savings2"
+            />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="24dp"
+            android:text="Savings"
+            android:layout_marginTop="15dp"
+            android:textStyle="italic|bold"
+            />
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:hint="  0"
+            android:textSize="22dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/savings"
+            android:background="@drawable/edittextdrawable"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:orientation="horizontal"
+            android:background="@drawable/customizeappback1">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:src="@drawable/fees2"
+                />
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="24dp"
+                android:text="Bills"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic|bold"
+                />
+            <EditText
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:hint="  0"
+                android:textSize="22dp"
+                android:id="@+id/bills"
+                android:paddingLeft="10dp"
+                android:background="@drawable/edittextdrawable"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#6d7695"
+        android:text="Create Budget"
+        android:textAllCaps="false"
+        android:textSize="28dp"
+        android:id="@+id/createbudget"
+        android:textColor="#9eaec7"
+        android:shadowColor="#9eaec7"
+        android:shadowRadius="100"/>
+</LinearLayout>

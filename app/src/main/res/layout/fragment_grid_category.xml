@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.budgetplanner.GridCategoryFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <GridView
+       android:layout_marginTop="30dp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/gridview"
+       android:numColumns="3"
+       android:stretchMode="columnWidth"
+       android:horizontalSpacing="5dp"
+       android:verticalSpacing="10dp"
+       >
+
+   </GridView>
+
+</RelativeLayout>

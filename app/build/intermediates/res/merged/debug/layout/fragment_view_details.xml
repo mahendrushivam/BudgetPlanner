@@ -1,0 +1,171 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.budgetplanner.ViewDetailsFragment"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99cccc"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="@drawable/viewdetailsshape">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/viewcategory"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:background="#99cccc"
+            android:text="Account Details"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"
+            android:textSize="26dp"
+            android:textStyle="bold|italic"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:scrollY="@dimen/activity_vertical_margin"
+        android:scrollbars="vertical"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+
+        android:background="@drawable/viewdetailss">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:text="  Firstname"
+            android:background="@drawable/viewdetailsshape"
+            android:paddingTop="10dp"
+            android:textSize="24dp"
+            android:drawableLeft="@drawable/username"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/firstname"
+            android:contextClickable="false"
+            android:clickable="false"
+            android:focusable="false"
+            android:layout_marginLeft="70dp"
+            android:text="Shivam"
+            android:textSize="24dp"
+            android:background="#ecc3ee"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="  Lastname"
+            android:background="@drawable/viewdetailsshape"
+            android:paddingTop="10dp"
+            android:textSize="24dp"
+            android:drawableLeft="@drawable/username"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/lastname"
+            android:layout_marginLeft="70dp"
+            android:text="Shivam"
+            android:contextClickable="false"
+            android:clickable="false"
+
+            android:focusable="false"
+            android:textSize="24dp"
+            android:background="#ecc3ee"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:text="  Profession"
+            android:background="@drawable/viewdetailsshape"
+            android:paddingTop="10dp"
+            android:textSize="24dp"
+            android:drawableLeft="@drawable/profession"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/profession"
+            android:layout_marginLeft="70dp"
+            android:text="Student"
+            android:contextClickable="false"
+            android:clickable="false"
+            android:focusable="false"
+            android:textSize="24dp"
+            android:background="#ecc3ee"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:text="  Email"
+            android:background="@drawable/viewdetailsshape"
+            android:paddingTop="10dp"
+            android:textSize="24dp"
+            android:drawableLeft="@drawable/emailid"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/email"
+            android:layout_marginLeft="70dp"
+            android:text="Shivam"
+            android:textSize="24dp"
+            android:contextClickable="false"
+            android:clickable="false"
+
+            android:focusable="false"
+            android:background="#ecc3ee"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="@drawable/viewdetailsshape">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/edit"
+            android:text="Edit Details"
+            android:textAllCaps="false"
+            android:textSize="24dp"
+            android:textStyle="italic"
+            android:background="@drawable/viewdetailss"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/save"
+            android:text="Save Details"
+            android:textStyle="italic"
+            android:textAllCaps="false"
+            android:textSize="24dp"
+
+            android:background="@drawable/viewdetailss"/>
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

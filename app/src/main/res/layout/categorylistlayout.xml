@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="#bfaccc"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/food4"
+        android:id="@+id/getcatimage"/>
+<TextView
+    android:layout_width="150dp"
+    android:layout_height="50dp"
+    android:text="Category Name"
+    android:paddingTop="10dp"
+    android:textSize="18dp"
+    android:layout_marginLeft="10dp"
+    android:id="@+id/getcatname"
+    />
+</LinearLayout>

@@ -1,0 +1,246 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c7e6c1"
+    android:orientation="vertical"
+    tools:context="com.example.hp.budgetplanner.AddItemFragment2">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="510dp"
+    android:orientation="vertical"
+    android:background="#c7e6c1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/additemback2">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/categorylisticon2"/>
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:text="Category"
+            android:paddingTop="10dp"
+            android:textSize="20dp"
+
+            />
+        <EditText
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:background="#dbde93"
+            android:layout_marginTop="5dp"
+            android:id="@+id/categoryname"
+            android:textSize="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+        android:orientation="vertical"
+        android:background="#c7e6c1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:background="@drawable/additemback2">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/subcat"/>
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:text="SubCategory"
+                android:paddingTop="10dp"
+                android:textSize="20dp"
+
+                />
+            <EditText
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:id="@+id/subcategoryname"
+                android:background="#dbde93"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:background="@drawable/additemback2">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/budgetrenameicon2"/>
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:text="Budget Name"
+                android:paddingTop="10dp"
+                android:textSize="20dp"
+
+                />
+            <AutoCompleteTextView
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:background="#dbde93"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"
+                android:ems="10"
+                android:hint=" Budget name"
+                android:id="@+id/budgetname"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/additemback2">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/expensename"/>
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:text="Expense Name"
+                android:paddingTop="10dp"
+                android:textSize="20dp"
+
+                />
+            <EditText
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:background="#dbde93"
+                android:layout_marginTop="5dp"
+                android:id="@+id/expensename"
+                android:textSize="20dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/amountspent"/>
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="60dp"
+                    android:text="Amount(Rs)"
+                    android:paddingTop="10dp"
+                    android:textSize="20dp"
+
+                    />
+                <EditText
+                    android:layout_width="170dp"
+                    android:layout_height="40dp"
+                    android:background="#dbde93"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/expenseamount"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/date"/>
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:text="Date"
+                    android:paddingTop="10dp"
+                    android:textSize="20dp"
+
+                    />
+                <Spinner
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="#dbde93"
+                    android:id="@+id/spinnerday"></Spinner>
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="#dbde93"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/spinnermonth"></Spinner>
+                <Spinner
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:background="#dbde93"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/spinneryear"></Spinner>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="50dp"
+                    android:src="@drawable/expensename"/>
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="60dp"
+                    android:text="Expense Details"
+                    android:paddingTop="10dp"
+
+                    android:textSize="20dp"
+
+                    />
+                <EditText
+                    android:layout_width="170dp"
+                    android:layout_height="110dp"
+                    android:background="#dbde93"
+                    android:maxLines="5"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/expensedetails"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
+
+
+</LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/additemback2"
+        android:textSize="28dp"
+        android:text="Add New Expense"
+        android:id="@+id/addexpensebut"
+        android:textAllCaps="false"
+        android:textColor="#d7f47a"
+        />
+</LinearLayout>
+

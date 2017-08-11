@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\hp\\AndroidStudioProjects\\BudgetPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_logged_in_main_drawer.xml",
+        "source": "C:\\Users\\hp\\AndroidStudioProjects\\BudgetPlanner\\app\\src\\main\\res\\menu\\activity_logged_in_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shivam\\Downloads\\BudgetPlanner by Shivam\\app\\build\\intermediates\\res\\merged\\debug\\menu\\expensemenu.xml",
+        "source": "C:\\Users\\Shivam\\Downloads\\BudgetPlanner by Shivam\\app\\src\\main\\res\\menu\\expensemenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\AndroidStudioProjects\\BudgetPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\budgetoptionmenu.xml",
+        "source": "C:\\Users\\hp\\AndroidStudioProjects\\BudgetPlanner\\app\\src\\main\\res\\menu\\budgetoptionmenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\AndroidStudioProjects\\BudgetPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\expensemenu.xml",
+        "source": "C:\\Users\\hp\\AndroidStudioProjects\\BudgetPlanner\\app\\src\\main\\res\\menu\\expensemenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shivam\\Downloads\\BudgetPlanner by Shivam\\app\\build\\intermediates\\res\\merged\\debug\\menu\\budgetoptionmenu.xml",
+        "source": "C:\\Users\\Shivam\\Downloads\\BudgetPlanner by Shivam\\app\\src\\main\\res\\menu\\budgetoptionmenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\AndroidStudioProjects\\BudgetPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\categoryselectmenu.xml",
+        "source": "C:\\Users\\hp\\AndroidStudioProjects\\BudgetPlanner\\app\\src\\main\\res\\menu\\categoryselectmenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shivam\\Downloads\\BudgetPlanner by Shivam\\app\\build\\intermediates\\res\\merged\\debug\\menu\\categoryselectmenu.xml",
+        "source": "C:\\Users\\Shivam\\Downloads\\BudgetPlanner by Shivam\\app\\src\\main\\res\\menu\\categoryselectmenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shivam\\Downloads\\BudgetPlanner by Shivam\\app\\build\\intermediates\\res\\merged\\debug\\menu\\logged_in_main.xml",
+        "source": "C:\\Users\\Shivam\\Downloads\\BudgetPlanner by Shivam\\app\\src\\main\\res\\menu\\logged_in_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\AndroidStudioProjects\\BudgetPlanner\\app\\build\\intermediates\\res\\merged\\debug\\menu\\logged_in_main.xml",
+        "source": "C:\\Users\\hp\\AndroidStudioProjects\\BudgetPlanner\\app\\src\\main\\res\\menu\\logged_in_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shivam\\Downloads\\BudgetPlanner by Shivam\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_logged_in_main_drawer.xml",
+        "source": "C:\\Users\\Shivam\\Downloads\\BudgetPlanner by Shivam\\app\\src\\main\\res\\menu\\activity_logged_in_main_drawer.xml"
+    }
+]

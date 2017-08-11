@@ -1,0 +1,44 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="@drawable/homescreen"
+    tools:context="com.example.hp.budgetplanner.HomeScreenFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:background="@mipmap/slider1"
+        >
+<ImageView
+    android:layout_height="280dp"
+    android:layout_width="280dp"
+    android:layout_marginLeft="45dp"
+    android:layout_marginTop="45dp"
+    android:id="@+id/imageslider"
+    android:background="@mipmap/imagesliderback2"/>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="180dp"
+    android:orientation="vertical"
+    android:background="@drawable/roundrectangle2">
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/roundrectangle"
+    android:text="Make A New Budget"
+    android:textSize="28dp"
+    android:layout_marginTop="20dp"
+    android:textAllCaps="false"
+    android:id="@+id/makenewbudget"
+    />
+</LinearLayout>
+</LinearLayout>

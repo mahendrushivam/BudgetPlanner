@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#516bc8"
+    android:orientation="vertical"
+    tools:context="com.example.hp.budgetplanner.ImageSlider4">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+        android:src="@drawable/slide1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="60dp"
+        android:background="#95baee"
+        android:text="START MAKING YOUR BUDGET"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"
+        android:id="@+id/startbutton"
+        android:clickable="true"
+        android:focusable="true"
+        />
+
+</LinearLayout>

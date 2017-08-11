@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="#c4f0f0"
+    android:orientation="vertical"
+    tools:context="com.example.hp.budgetplanner.Makeanewbudget">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="15dp"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/makebudgetback"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="22dp"
+            android:drawableLeft="@drawable/budgetrenameicon"
+            android:id="@+id/budgetname"
+            android:textColor="#e6f6f6"
+            android:background="@drawable/makeback2"
+            android:hint="   Budget Name"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/makebudgetback"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="22dp"
+            android:id="@+id/budgetamount"
+            android:drawableLeft="@drawable/budgetamount"
+            android:textColor="#e6f6f6"
+            android:background="@drawable/makeback2"
+            android:hint=" Budget Amount"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/makebudgetback"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/makeback2"
+           android:orientation="horizontal">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:textSize="22dp"
+                android:text="  Month"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"/>
+            <Spinner
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5sp"
+                android:background="@drawable/makebudgetback"
+                android:layout_marginLeft="50dp"
+                android:id="@+id/month"></Spinner>
+            </LinearLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/makeback2"
+
+        android:orientation="vertical">
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:layout_marginTop="10dp"
+           android:text="Inbuilt Budget Plan"
+           android:textSize="24dp"
+           android:textAllCaps="false"
+           android:id="@+id/inbuiltbudget"
+           android:textColor="#4d65d0"
+           android:background="@drawable/makebudgetback"
+           />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false"
+            android:textSize="24dp"
+            android:id="@+id/customizebudget"
+            android:textColor="#4d65d0"
+            android:text="Customize Your Budget"
+            android:background="@drawable/makebudgetback"
+            />
+    </LinearLayout>
+</LinearLayout>
+    </LinearLayout>
+
